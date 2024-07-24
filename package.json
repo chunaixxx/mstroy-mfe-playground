@@ -1,0 +1,17 @@
+{
+    "name": "root",
+    "private": true,
+    "workspaces": [
+        "helmet",
+        "packages/*"
+    ],
+    "scripts": {
+        "clean": "lerna clean",
+        "install:all": "lerna exec -- npm i",
+        "dev": "lerna run --parallel dev"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "lerna": "^8.1.7"
+    }
+}

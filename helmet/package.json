@@ -1,0 +1,40 @@
+{
+    "name": "helmet",
+    "version": "0.0.1",
+    "description": "imitation helmet",
+    "productName": "helmet",
+    "author": "Daniil Kirillov <chunaixxx@gmail.com>",
+    "private": true,
+    "main": ".quasar/main.js",
+    "scripts": {
+        "dev": "quasar dev",
+        "serve": "http-server ./dist/spa/ --proxy http://localhost:8080? -o"
+    },
+    "dependencies": {
+        "@quasar/extras": "^1.16.4",
+        "core-js": "^3.6.5",
+        "http-server": "^14.1.1",
+        "mf-webpack4": "^1.4.5",
+        "quasar": "^1.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^12.20.21",
+        "@quasar/app": "^2.0.0"
+    },
+    "browserslist": [
+        "last 10 Chrome versions",
+        "last 10 Firefox versions",
+        "last 4 Edge versions",
+        "last 7 Safari versions",
+        "last 8 Android versions",
+        "last 8 ChromeAndroid versions",
+        "last 8 FirefoxAndroid versions",
+        "last 10 iOS versions",
+        "last 5 Opera versions"
+    ],
+    "engines": {
+        "node": ">= 10.18.1",
+        "npm": ">= 6.13.4",
+        "yarn": ">= 1.21.1"
+    }
+}
