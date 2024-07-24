@@ -16,10 +16,10 @@ npm run dev
 ```
 
 ## Ядро и модули
-| Модуль          | Vue | Quasar | Bundler   | MFE Tool                            |
-|-----------------|-----|--------|-----------|-------------------------------------|
-| helmet (Ядро)         | v2.7.16   | v1.0.0     | Webpack 4 | mf-webpack4                         |
-| package/counter | v3.4.18   | v2.16.0      | Webpack 5 | ModuleFederationPlugin (by webpack) |
+| Модуль          | Vue | Quasar | Bundler   | MFE Tool                            | Host |
+|-----------------|-----|--------|-----------|-------------------------------------|------|
+| helmet (Ядро)         | v2.7.16   | v1.0.0     | Webpack 4 | mf-webpack4          |  http://localhost:8080 |
+| package/counter | v3.4.18   | v2.16.0      | Webpack 5 | ModuleFederationPlugin (by webpack) |  http://localhost:9000 |
 
 ## TODO
 - [ ] Стили
