@@ -6,7 +6,7 @@
 ```
 git clone https://github.com/chunaixxx/mstroy-mfe-playground
 ```
-### Установка зависимостей для всех микрофронтов и ядра 
+### Установка зависимостей для ядра и всех микрофронтов 
 ```
 npm run install:all
 ```
@@ -27,3 +27,12 @@ npm run dev
 - [ ] Обработка ошибок при загрузке микрофронтов
 - [ ] Общие зависимости
 - [ ] Билд
+
+## Заметки
+
+Для возможности регистрации quasar-приложения как микрофронт необходимо создать файл-прослойку main.js и указать его как входную точку в quasar.conf.js ([reference](https://github.com/module-federation/module-federation-examples/tree/master/quasar-cli-vue3-webpack-javascript))
+```
+extendWebpack(cfg) {
+        cfg.entry = path.resolve(__dirname, "./.quasar/main.js");
+}
+```
