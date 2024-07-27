@@ -1,8 +1,14 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <Counter />
+    <div>
+      <div class="text-subtitle1">helmet</div>
+      <Counter />
+    </div>
 
-    <counter-wc />
+    <div>
+      <div class="text-subtitle1">packages/counter</div>
+      <counter-wc />
+    </div>
   </q-page>
 </template>
 
