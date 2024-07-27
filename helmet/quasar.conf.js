@@ -24,6 +24,8 @@ module.exports = configure(function (/* ctx */) {
 
     build: {
       vueRouterMode: "hash",
+      analyze: true,
+
       chainWebpack(chain) {
         chain.optimization.delete("splitChunks");
         chain.optimization.splitChunks().clear();
