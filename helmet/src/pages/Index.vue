@@ -10,7 +10,9 @@
 import Vue from "vue";
 
 import Counter from "../components/Counter.vue";
-import RegisterWebComponent from "counter/RegisterWebComponent";
+import registerWebComponent from "counter/registerWebComponent";
+
+registerWebComponent("counter-wc");
 
 export default Vue.extend({
   name: "Index",

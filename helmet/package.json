@@ -4,7 +4,7 @@
     "description": "imitation helmet",
     "productName": "helmet",
     "author": "Daniil Kirillov <chunaixxx@gmail.com>",
-    "private": true,
+    "private": false,
     "main": ".quasar/main.js",
     "scripts": {
         "dev": "quasar dev",
@@ -13,6 +13,7 @@
     "dependencies": {
         "@quasar/extras": "^1.16.4",
         "core-js": "^3.6.5",
+        "dotenv": "^16.4.5",
         "http-server": "^14.1.1",
         "mf-webpack4": "^1.4.5",
         "quasar": "^1.0.0"

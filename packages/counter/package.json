@@ -1,10 +1,10 @@
 {
-    "name": "counterPackage",
+    "name": "counter",
     "version": "0.0.1",
     "description": "remote counterPackage",
     "productName": "counter",
     "author": "Daniil Kirillov <chunaixxx@gmail.com>",
-    "private": true,
+    "private": false,
     "main": ".quasar/main.js",
     "scripts": {
         "dev": "quasar dev"
@@ -12,7 +12,10 @@
     "dependencies": {
         "@quasar/extras": "^1.16.4",
         "core-js": "^3.31.1",
+        "cross-env": "^7.0.3",
+        "dotenv": "^16.4.5",
         "pinia": "^2.0.11",
+        "postcss-prefix-selector": "^1.16.1",
         "quasar": "^2.16.0",
         "vue": "^3.4.18",
         "vue-router": "^4.0.12",

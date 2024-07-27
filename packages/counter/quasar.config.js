@@ -36,7 +36,7 @@ module.exports = configure(function (ctx) {
             name: "counter",
             filename: "remoteEntry.js",
             exposes: {
-              "./RegisterWebComponent": "./src/RegisterWebComponent",
+              "./registerWebComponent": "./src/registerWebComponent",
             },
             shared: {
               pinia: {
