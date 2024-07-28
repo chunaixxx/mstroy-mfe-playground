@@ -15,10 +15,13 @@
 import { QChip } from "quasar";
 import { ref } from "vue";
 
+const emit = defineEmits(["click-counter"]);
+
 const counter = ref(0);
 
 const onClick = () => {
   counter.value += 1;
+  emit("click-counter", "packages/counter");
 };
 </script>
 

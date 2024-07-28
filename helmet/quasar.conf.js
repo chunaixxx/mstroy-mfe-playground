@@ -79,7 +79,7 @@ module.exports = configure(function (/* ctx */) {
 
       importStrategy: "auto",
 
-      plugins: [],
+      plugins: ["Notify"],
     },
 
     animations: [],

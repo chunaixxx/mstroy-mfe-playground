@@ -27,6 +27,7 @@ export default Vue.extend({
   methods: {
     onClick() {
       this.counter += 1;
+      this.$emit("click-counter", "helmet");
     },
   },
 });
