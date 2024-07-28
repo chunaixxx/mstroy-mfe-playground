@@ -1,7 +1,7 @@
 <template>
   <div class="Counter">
     <div>
-      <QChip color="red" text-color="white">Vue v3.4.18</QChip>
+      <QChip color="primary" text-color="white">Vue v3.4.18</QChip>
       <QChip color="teal" text-color="white">Quasar v2.16.0</QChip>
       <QChip color="orange" text-color="white">Webpack v5</QChip>
     </div>

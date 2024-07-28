@@ -18,6 +18,10 @@ module.exports = (ctx) => {
         transform(prefix, selector, prefixedSelector, filePath, rule) {
           /* if (prefixedSelector.includes(".counter-wc")) return selector; */
 
+          if (selector.match(/^(:root)/)) {
+            return selector;
+          }
+
           if (selector.match(/^(html|body)/)) {
             return selector.replace(/^([^\s]*)/, `$1 ${prefix}`);
           }
