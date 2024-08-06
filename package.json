@@ -1,10 +1,6 @@
 {
     "name": "root",
     "private": true,
-    "workspaces": [
-        "helmet",
-        "packages/*"
-    ],
     "scripts": {
         "clean": "lerna clean",
         "install:all": "lerna exec -- npm i",
